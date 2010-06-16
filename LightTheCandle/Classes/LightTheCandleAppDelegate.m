@@ -20,11 +20,17 @@
     // Override point for customization after application launch
 	candleState = NO;
 	
-	NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
-	NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
+	//이미지 로딩 방법1
+	//NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
+	//NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
 	
-	candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
-	candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
+	//candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
+	//candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
+	
+	//이미지 로딩 방법2
+	//반드시 이미지 파일이 프로젝트에 포함되어 있어야 함
+	candleOffImage = [UIImage imageNamed:@"candle off.jpg"];
+	candleOnImage = [UIImage imageNamed:@"candle on.jpg"];
 	
 	[candleImageView setImage:candleOffImage];
 	onOffSwitch.on = candleState;
