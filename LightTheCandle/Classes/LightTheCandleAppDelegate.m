@@ -28,7 +28,7 @@
 	
 	[candleImageView setImage:candleOffImage];
 	onOffSwitch.on = candleState;
-	candleStateLabel.text = @"Candle is Off. please lignt on.";
+	candleStateLabel.text = @"Candle is Off. please light on.";
 	
 	
     [window makeKeyAndVisible];
@@ -40,6 +40,21 @@
 - (void)dealloc {
     [window release];
     [super dealloc];
+}
+
+- (IBAction)toggleCandle:(id)sender {
+	candleState = !candleState;
+	if (candleState) {
+		[candleImageView setImage:candleOnImage];
+		onOffSwitch.on = YES;
+		candleStateLabel.text = @"Candle is now on";
+	}
+	else {
+		[candleImageView setImage:candleOffImage];
+		onOffSwitch.on = NO;
+		candleStateLabel.text = @"Candle is Off. please light on";
+	}
+
 }
 
 

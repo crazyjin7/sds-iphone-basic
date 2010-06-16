@@ -25,6 +25,8 @@
 @property (nonatomic, retain) IBOutlet UISwitch *onOffSwitch;
 @property (nonatomic, retain) IBOutlet UILabel *candleStateLabel;
 
+- (IBAction)toggleCandle:(id)sender;
+
 
 @end
 
