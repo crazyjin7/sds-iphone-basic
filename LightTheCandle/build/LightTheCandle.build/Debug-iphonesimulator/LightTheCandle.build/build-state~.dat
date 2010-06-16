@@ -1,207 +1,0 @@
-TLightTheCandle
-v7
-r0
-t298361089.307242
-cCheck dependencies
-cProcessInfoPlistFile /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist LightTheCandle-Info.plist
-cCompileXIB /Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib
-cProcessPCH /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch.gch LightTheCandle_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o /Users/sds06/Documents/crazin/LightTheCandle/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o /Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle normal i386
-cGenerateDSYMFile /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
-cTouch /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.h
-c000000004C18696C0000000000000156
-t1276668268
-s342
-i<UIKit/UIKit.h>
-
-N/Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m
-c000000004C18696C0000000000000232
-t1276668268
-s562
-i"LightTheCandleAppDelegate.h"
-
-N/Users/sds06/Documents/crazin/LightTheCandle/LightTheCandle_Prefix.pch
-c000000004C18696C00000000000000C5
-t1276668268
-s197
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib
-c000000004C18696C000000000000212B
-t1276668268
-s8491
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
-t1276668289
-s204
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM
-t1276668289
-s102
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist
-t1276668287
-s621
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
-t1276668289
-s18472
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/MainWindow.nib
-t1276668288
-s1367
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/PkgInfo
-t1276668287
-s8
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandle.LinkFileList
-c000000004C18697F0000000000000131
-t1276668287
-s305
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o
-t1276668289
-s17444
-
-N/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o
-t1276668289
-s5960
-
-N/Users/sds06/Documents/crazin/LightTheCandle/main.m
-c000000004C18696C000000000000016A
-t1276668268
-s362
-i<UIKit/UIKit.h>
-
-N/var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch.gch
-t1276668288
-s13026768
-
-NLightTheCandle-Info.plist
-c000000004C18696C000000000000038D
-t1276668268
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies298361087#298361087#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o /Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298361089.079214
-e298361089.145160
-r1
-xCompileC
-xbuild/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o
-x/Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m298361089#298361089#0(0"0(0#0#80"/Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m4300911832#2115"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -include /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch -c /Users/sds06/Documents/crazin/LightTheCandle/Classes/LightTheCandleAppDelegate.m -o /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o0#
-
-CCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o /Users/sds06/Documents/crazin/LightTheCandle/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298361089.077755
-e298361089.137329
-r1
-xCompileC
-xbuild/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o
-x/Users/sds06/Documents/crazin/LightTheCandle/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/sds06/Documents/crazin/LightTheCandle/main.m298361089#298361089#0(0"0(0#0#51"/Users/sds06/Documents/crazin/LightTheCandle/main.m4300911832#2065"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -include /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch -c /Users/sds06/Documents/crazin/LightTheCandle/main.m -o /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib
-s298361087.902409
-e298361088.212560
-r1
-xCompileXIB
-x/Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib298361087#298361088#0(0"0(0#0#59"/Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib4300911832#507"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/MainWindow.nib /Users/sds06/Documents/crazin/LightTheCandle/MainWindow.xib0#
-
-CGenerateDSYMFile /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
-s298361089.245078
-e298361089.304073
-r1
-xGenerateDSYMFile
-x/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM
-x/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LightTheCandle.app.dSYM build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle298361089#298361089#0(0"0(0#0#106"/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle4300911832#422"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle -o /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM0#
-
-CLd /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle normal i386
-s298361089.145261
-e298361089.244960
-r1
-xLd
-x/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
-xnormal
-xi386
-lSLF07#2@111"Link /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle298361089#298361089#0(0"0(0#0#0"4300911832#929"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator -F/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator -filelist /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandle.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle0#
-
-CProcessInfoPlistFile /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist LightTheCandle-Info.plist
-s298361087.898723
-e298361087.902316
-r1
-xProcessInfoPlistFile
-x/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist
-xLightTheCandle-Info.plist
-lSLF07#2@33"Process LightTheCandle-Info.plist298361087#298361087#0(0"0(0#0#70"/Users/sds06/Documents/crazin/LightTheCandle/LightTheCandle-Info.plist4300911832#518"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LightTheCandle-Info.plist -genpkginfo /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist0#
-
-CProcessPCH /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch.gch LightTheCandle_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s298361088.212709
-e298361089.077618
-r1
-xProcessPCH
-x/var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch.gch
-xLightTheCandle_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile LightTheCandle_Prefix.pch298361088#298361089#0(0"0(0#0#70"/Users/sds06/Documents/crazin/LightTheCandle/LightTheCandle_Prefix.pch4300911832#1944"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -c /Users/sds06/Documents/crazin/LightTheCandle/LightTheCandle_Prefix.pch -o /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-ggdzzjmnhzuhuiesdssqlawjqnrb/LightTheCandle_Prefix.pch.gch0#
-
-CTouch /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
-s298361089.304182
-e298361089.307203
-r1
-xTouch
-x/Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
-lSLF07#2@97"Touch /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app298361089#298361089#0(0"0(0#0#0"4300911832#297"    cd /Users/sds06/Documents/crazin/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sds06/Documents/crazin/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app0#
-
