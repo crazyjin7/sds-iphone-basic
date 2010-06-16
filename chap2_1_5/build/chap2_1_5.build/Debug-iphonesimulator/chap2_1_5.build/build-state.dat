@@ -1,0 +1,238 @@
+Tchap2_1_5
+v7
+r0
+t298357248.616946
+cCheck dependencies
+cProcessInfoPlistFile /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/Info.plist chap2_1_5-Info.plist
+cCompileXIB /Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib
+cProcessPCH /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch.gch chap2_1_5_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/main.o /Users/sds06/Documents/crazin/chap2_1_5/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5AppDelegate.o /Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/Person.o /Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5 normal i386
+cGenerateDSYMFile /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app.dSYM /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5
+cTouch /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.h
+c000000004C18593C0000000000000145
+t1276664124
+s325
+i<Foundation/Foundation.h>
+
+N/Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m
+c000000004C1859F90000000000000145
+t1276664313
+s325
+i"Person.h"
+
+N/Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.h
+c000000004C1858320000000000000147
+t1276663858
+s327
+i<UIKit/UIKit.h>
+
+N/Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m
+c000000004C185A7B000000000000026F
+t1276664443
+s623
+i"chap2_1_5AppDelegate.h"
+i"Person.h"
+
+N/Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib
+c000000004C1858320000000000002112
+t1276663858
+s8466
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app
+t1276664448
+s204
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app.dSYM
+t1276664448
+s102
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/Info.plist
+t1276663873
+s601
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/MainWindow.nib
+t1276663874
+s1362
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/PkgInfo
+t1276663873
+s8
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5
+t1276664448
+s19152
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/Person.o
+t1276664448
+s6800
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5.LinkFileList
+c000000004C185A7F000000000000018F
+t1276664447
+s399
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5AppDelegate.o
+t1276664448
+s17772
+
+N/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/main.o
+t1276663876
+s5952
+
+N/Users/sds06/Documents/crazin/chap2_1_5/chap2_1_5_Prefix.pch
+c000000004C18583200000000000000BB
+t1276663858
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sds06/Documents/crazin/chap2_1_5/main.m
+c000000004C1858320000000000000165
+t1276663858
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch.gch
+t1276663876
+s13026768
+
+Nchap2_1_5-Info.plist
+c000000004C185832000000000000038D
+t1276663858
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298357247#298357247#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/Person.o /Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298357247.880557
+e298357248.319692
+r1
+xCompileC
+xbuild/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/Person.o
+x/Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m298357247#298357248#0(0"0(0#0#56"/Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m4300911832#1922"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-generated-files.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-own-target-headers.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-project-headers.hmap -F/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources -include /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch -c /Users/sds06/Documents/crazin/chap2_1_5/Classes/Person.m -o /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/Person.o0#
+
+CCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5AppDelegate.o /Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298357247.821336
+e298357248.269140
+r1
+xCompileC
+xbuild/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5AppDelegate.o
+x/Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m298357247#298357248#0(0"0(0#0#70"/Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m4300911832#1950"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-generated-files.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-own-target-headers.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-project-headers.hmap -F/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources -include /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch -c /Users/sds06/Documents/crazin/chap2_1_5/Classes/chap2_1_5AppDelegate.m -o /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5AppDelegate.o0#
+
+CCompileC build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/main.o /Users/sds06/Documents/crazin/chap2_1_5/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298356676.740827
+e298356676.835628
+r1
+xCompileC
+xbuild/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/main.o
+x/Users/sds06/Documents/crazin/chap2_1_5/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sds06/Documents/crazin/chap2_1_5/main.m298356676#298356676#0(0"0(0#0#46"/Users/sds06/Documents/crazin/chap2_1_5/main.m4300911832#1910"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-generated-files.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-own-target-headers.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-project-headers.hmap -F/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources -include /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch -c /Users/sds06/Documents/crazin/chap2_1_5/main.m -o /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib
+s298356673.905177
+e298356674.516415
+r1
+xCompileXIB
+x/Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298356673#298356674#0(0"0(0#0#54"/Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib4300911832#487"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/MainWindow.nib /Users/sds06/Documents/crazin/chap2_1_5/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app.dSYM /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5
+s298357248.438967
+e298357248.582619
+r1
+xGenerateDSYMFile
+x/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app.dSYM
+x/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/chap2_1_5.app.dSYM build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5298357248#298357248#0(0"0(0#0#91"/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_54300911832#392"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5 -o /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app.dSYM0#
+
+CLd /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5 normal i386
+s298357248.319792
+e298357248.438811
+r1
+xLd
+x/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5
+xnormal
+xi386
+lSLF07#2@96"Link /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_5298357248#298357248#0(0"0(0#0#0"4300911832#879"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -F/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -filelist /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/Objects-normal/i386/chap2_1_5.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/chap2_1_50#
+
+CProcessInfoPlistFile /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/Info.plist chap2_1_5-Info.plist
+s298356673.900110
+e298356673.905074
+r1
+xProcessInfoPlistFile
+x/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/Info.plist
+xchap2_1_5-Info.plist
+lSLF07#2@28"Process chap2_1_5-Info.plist298356673#298356673#0(0"0(0#0#60"/Users/sds06/Documents/crazin/chap2_1_5/chap2_1_5-Info.plist28992425118793828#488"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility chap2_1_5-Info.plist -genpkginfo /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app/Info.plist0#
+
+CProcessPCH /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch.gch chap2_1_5_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298356674.516551
+e298356676.740617
+r1
+xProcessPCH
+x/var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch.gch
+xchap2_1_5_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile chap2_1_5_Prefix.pch298356674#298356676#0(0"0(0#0#60"/Users/sds06/Documents/crazin/chap2_1_5/chap2_1_5_Prefix.pch4300911832#1799"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-generated-files.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-own-target-headers.hmap -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-all-target-headers.hmap -iquote /Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/chap2_1_5-project-headers.hmap -F/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator -I/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/include -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources/i386 -I/Users/sds06/Documents/crazin/chap2_1_5/build/chap2_1_5.build/Debug-iphonesimulator/chap2_1_5.build/DerivedSources -c /Users/sds06/Documents/crazin/chap2_1_5/chap2_1_5_Prefix.pch -o /var/folders/w3/w3NYPBOPG7OYrY7yolI-rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chap2_1_5_Prefix-fcadofsawlbhawarkbdtdkpktfmp/chap2_1_5_Prefix.pch.gch0#
+
+CTouch /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app
+s298357248.582726
+e298357248.616871
+r1
+xTouch
+x/Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app
+lSLF07#2@87"Touch /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app298357248#298357248#0(0"0(0#0#0"4300911832#282"    cd /Users/sds06/Documents/crazin/chap2_1_5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sds06/Documents/crazin/chap2_1_5/build/Debug-iphonesimulator/chap2_1_5.app0#
+
