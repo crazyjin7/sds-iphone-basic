@@ -11,11 +11,25 @@
 @implementation LightTheCandleAppDelegate
 
 @synthesize window;
-
+@synthesize candleImageView;
+@synthesize onOffSwitch;
+@synthesize candleStateLabel;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
     // Override point for customization after application launch
+	candleState = NO;
+	
+	NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
+	NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
+	
+	candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
+	candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
+	
+	[candleImageView setImage:candleOffImage];
+	onOffSwitch.on = candleState;
+	candleStateLabel.text = @"Candle is Off. please lignt on.";
+	
 	
     [window makeKeyAndVisible];
 	

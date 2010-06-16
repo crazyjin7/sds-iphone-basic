@@ -10,6 +10,11 @@
 
 @interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	
+	BOOL candleState;
+	UIImage *candleOffImage;
+	UIImage *candleOnImage;
+	
 	UIImageView *candleImageView;
 	UISwitch *onOffSwitch;
 	UILabel *candleStateLabel;
