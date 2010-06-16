@@ -45,6 +45,8 @@
 
 - (void)dealloc {
     [window release];
+	[candleOnImage release];
+	[candleOffImage release];
     [super dealloc];
 }
 
