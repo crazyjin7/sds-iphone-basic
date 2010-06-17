@@ -48,10 +48,10 @@
 }
 
 - (IBAction)toggleCandle:(id)sender {
-	BOOL candleState = [[myCandleDict valueForKey:@"candleState"] boolValue];
-	[myCandleDict setValue:[NSNumber numberWithBool:!candleState] forKey:@"candleState"];
+	BOOL candleState = ![[myCandleDict valueForKey:@"candleState"] boolValue];
+	[myCandleDict setValue:[NSNumber numberWithBool:candleState] forKey:@"candleState"];
 	
-	if (!candleState) {
+	if (candleState) {
 		[candleImageView setImage:[myCandleDict valueForKey:@"candleOnImage"]];
 		onOffSwitch.on = YES;
 		candleStateLabel.text = @"Candle is now on";
