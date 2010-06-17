@@ -7,16 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Candle.h"
 
 @interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	
-	//BOOL candleState;
-	//UIImage *candleOffImage;
-	//UIImage *candleOnImage;
-	
-	Candle *myCandle;
+	NSMutableDictionary *myCandleDict;
 	
 	UIImageView *candleImageView;
 	UISwitch *onOffSwitch;
