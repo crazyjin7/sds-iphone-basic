@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "SimpleHumanResourceAppDelegate.h"
 
 @implementation RootViewController
 
@@ -65,7 +65,9 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    
+	int rowCount = [[self appDelegate].personnel count];
+	return rowCount;
 }
 
 
@@ -80,6 +82,10 @@
     }
     
 	// Configure the cell.
+	NSMutableArray *personnel = [self appDelegate].personnel;
+	NSDictionary *employee = [personnel objectAtIndex:indexPath.row];
+	cell.textLabel.text = [employee valueForKey:@"nameOfEmployee"];
+	cell.detailTextLabel.text = [employee valueForKey:@"departmentOfEmployee"];
 
     return cell;
 }
@@ -160,6 +166,10 @@
     [super dealloc];
 }
 
+
+- (SimpleHumanResourceAppDelegate *)appDelegate {
+	return [[UIApplication sharedApplication] delegate];
+}
 
 @end
 
