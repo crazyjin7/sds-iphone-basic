@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		86344C3511C8AF3F00CC5136 /* candle off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86344C3311C8AF3F00CC5136 /* candle off.jpg */; };
 		86344C3611C8AF3F00CC5136 /* candle on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86344C3411C8AF3F00CC5136 /* candle on.jpg */; };
+		8690560611C9AD6F008FF4D1 /* Candle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8690560511C9AD6F008FF4D1 /* Candle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		32CA4F630368D1EE00C91783 /* LightTheCandle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightTheCandle_Prefix.pch; sourceTree = "<group>"; };
 		86344C3311C8AF3F00CC5136 /* candle off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle off.jpg"; sourceTree = "<group>"; };
 		86344C3411C8AF3F00CC5136 /* candle on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle on.jpg"; sourceTree = "<group>"; };
+		8690560411C9AD6F008FF4D1 /* Candle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candle.h; sourceTree = "<group>"; };
+		8690560511C9AD6F008FF4D1 /* Candle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candle.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* LightTheCandle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LightTheCandle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +52,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8690560411C9AD6F008FF4D1 /* Candle.h */,
+				8690560511C9AD6F008FF4D1 /* Candle.m */,
 				1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */,
 			);
@@ -170,6 +175,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* LightTheCandleAppDelegate.m in Sources */,
+				8690560611C9AD6F008FF4D1 /* Candle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
