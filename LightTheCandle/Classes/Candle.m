@@ -31,6 +31,10 @@
 }
 - (void)setCandleState:(BOOL)newState {
 	candleState = newState;
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"CandleDidChanged"
+														object:self
+													  userInfo:nil];	
 }
 
 - (UIImage *)candleOffImage {

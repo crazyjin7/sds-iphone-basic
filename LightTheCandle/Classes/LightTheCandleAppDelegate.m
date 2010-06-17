@@ -19,16 +19,10 @@
 
     // Override point for customization after application launch
 	
-	//candleState = NO;
-	
-	//NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
-	//NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
-	
-	//candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
-	//candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
-
-	//[candleImageView setImage:candleOffImage];
-	//onOffSwitch.on = candleState;
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(uiUpdate)
+												 name:@"CandleDidChanged"
+											   object:nil];
 
 	myCandle = [[Candle alloc] init];
 
@@ -45,31 +39,29 @@
 
 - (void)dealloc {
     [window release];
-	//[candleOnImage release];
-	//[candleOffImage release];
 	[myCandle release];
     [super dealloc];
 }
 
 - (IBAction)toggleCandle:(id)sender {
-	//candleState = !candleState;
 	[myCandle setCandleState:![myCandle candleState]];
+
+}
+
+- (void)uiUpate:(NSNotification *)noti {
 	
-	//if (candleState) {
-	if ([myCandle candleState]) {
-		//[candleImageView setImage:candleOnImage];
-		[candleImageView setImage:[myCandle candleOnImage]];
+	Candle *notiCandle = [noti object];
+	
+	if ([notiCandle candleState]) {
+		[candleImageView setImage:[notiCandle candleOnImage]];
 		onOffSwitch.on = YES;
 		candleStateLabel.text = @"Candle is now on";
 	}
 	else {
-		//[candleImageView setImage:candleOffImage];
-		[candleImageView setImage:[myCandle candleOffImage]];
+		[candleImageView setImage:[notiCandle candleOffImage]];
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
 	}
-
 }
-
 
 @end
