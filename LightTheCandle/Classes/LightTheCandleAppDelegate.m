@@ -18,22 +18,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
     // Override point for customization after application launch
-	candleState = NO;
 	
-	//이미지 로딩 방법1
+	//candleState = NO;
+	
 	//NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
 	//NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
 	
 	//candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
 	//candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
-	
-	//이미지 로딩 방법2
-	//반드시 이미지 파일이 프로젝트에 포함되어 있어야 함
-	candleOffImage = [UIImage imageNamed:@"candle off.jpg"];
-	candleOnImage = [UIImage imageNamed:@"candle on.jpg"];
-	
-	[candleImageView setImage:candleOffImage];
-	onOffSwitch.on = candleState;
+
+	//[candleImageView setImage:candleOffImage];
+	//onOffSwitch.on = candleState;
+
+	myCandle = [[Candle alloc] init];
+
+	[candleImageView setImage:[myCandle candleOffImage]];
+	onOffSwitch.on = [myCandle candleState];
 	candleStateLabel.text = @"Candle is Off. please light on.";
 	
 	
@@ -45,20 +45,26 @@
 
 - (void)dealloc {
     [window release];
-	[candleOnImage release];
-	[candleOffImage release];
+	//[candleOnImage release];
+	//[candleOffImage release];
+	[myCandle release];
     [super dealloc];
 }
 
 - (IBAction)toggleCandle:(id)sender {
-	candleState = !candleState;
-	if (candleState) {
-		[candleImageView setImage:candleOnImage];
+	//candleState = !candleState;
+	[myCandle setCandleState:![myCandle candleState]];
+	
+	//if (candleState) {
+	if ([myCandle candleState]) {
+		//[candleImageView setImage:candleOnImage];
+		[candleImageView setImage:[myCandle candleOnImage]];
 		onOffSwitch.on = YES;
 		candleStateLabel.text = @"Candle is now on";
 	}
 	else {
-		[candleImageView setImage:candleOffImage];
+		//[candleImageView setImage:candleOffImage];
+		[candleImageView setImage:[myCandle candleOffImage]];
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
 	}
