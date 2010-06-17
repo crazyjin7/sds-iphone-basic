@@ -20,7 +20,7 @@
     // Override point for customization after application launch
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self
-											 selector:@selector(uiUpdate)
+											 selector:@selector(uiUpdate:)
 												 name:@"CandleDidChanged"
 											   object:nil];
 
@@ -48,7 +48,7 @@
 
 }
 
-- (void)uiUpate:(NSNotification *)noti {
+- (void)uiUpdate:(NSNotification *)noti {
 	
 	Candle *notiCandle = [noti object];
 	
