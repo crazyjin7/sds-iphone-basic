@@ -17,21 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-    myCandleDict = [[NSMutableDictionary alloc] initWithCapacity:10];
+    // Override point for customization after application launch
 	
-	BOOL candleState = NO;
-	NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
-	NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
+	//candleState = NO;
+	
+	//NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
+	//NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
+	
+	//candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
+	//candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
 
-	UIImage *candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
-	UIImage *candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
-	
-	[myCandleDict setValue:[NSNumber numberWithBool:candleState] forKey:@"candleState"];
-	[myCandleDict setValue:candleOffImage forKey:@"candleOffImage"];
-	[myCandleDict setValue:candleOnImage forKey:@"candleOnImage"];
-	
-	[candleImageView setImage:[myCandleDict valueForKey:@"candleOffImage"]];
-	onOffSwitch.on = [[myCandleDict valueForKey:@"candleState"] boolValue];
+	//[candleImageView setImage:candleOffImage];
+	//onOffSwitch.on = candleState;
+
+	myCandle = [[Candle alloc] init];
+
+	[candleImageView setImage:[myCandle candleOffImage]];
+	onOffSwitch.on = [myCandle candleState];
 	candleStateLabel.text = @"Candle is Off. please light on.";
 	
 	
@@ -43,21 +45,26 @@
 
 - (void)dealloc {
     [window release];
-	[myCandleDict release];
+	//[candleOnImage release];
+	//[candleOffImage release];
+	[myCandle release];
     [super dealloc];
 }
 
 - (IBAction)toggleCandle:(id)sender {
-	BOOL candleState = ![[myCandleDict valueForKey:@"candleState"] boolValue];
-	[myCandleDict setValue:[NSNumber numberWithBool:candleState] forKey:@"candleState"];
+	//candleState = !candleState;
+	[myCandle setCandleState:![myCandle candleState]];
 	
-	if (candleState) {
-		[candleImageView setImage:[myCandleDict valueForKey:@"candleOnImage"]];
+	//if (candleState) {
+	if ([myCandle candleState]) {
+		//[candleImageView setImage:candleOnImage];
+		[candleImageView setImage:[myCandle candleOnImage]];
 		onOffSwitch.on = YES;
 		candleStateLabel.text = @"Candle is now on";
 	}
 	else {
-		[candleImageView setImage:[myCandleDict valueForKey:@"candleOffImage"]];
+		//[candleImageView setImage:candleOffImage];
+		[candleImageView setImage:[myCandle candleOffImage]];
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
 	}
