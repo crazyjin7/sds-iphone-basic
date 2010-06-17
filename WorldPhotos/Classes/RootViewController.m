@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "WorldPhotosAppDelegate.h"
 
 @implementation RootViewController
 
@@ -65,7 +65,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [[self appDelegate].photoArray count];
 }
 
 
@@ -80,7 +80,13 @@
     }
     
 	// Configure the cell.
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
 
+	cell.textLabel.text = [photoData valueForKey:@"Country"];
+	cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
+	cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	
     return cell;
 }
 
@@ -160,6 +166,9 @@
     [super dealloc];
 }
 
+- (WorldPhotosAppDelegate *)appDelegate {
+	return [[UIApplication sharedApplication] delegate];
+}
 
 @end
 

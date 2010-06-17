@@ -18,7 +18,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (readonly) NSArray *phohoArray;
+@property (readonly) NSArray *photoArray;
 
 - (NSArray *)createPhotoData;
 
