@@ -86,7 +86,8 @@
 	cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
 	cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
 	//cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+	//cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+	cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	
     return cell;
 }
