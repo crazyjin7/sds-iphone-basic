@@ -40,6 +40,7 @@
 #pragma mark Memory management
 
 - (void)dealloc {
+	[personnel release];
 	[navigationController release];
 	[window release];
 	[super dealloc];
