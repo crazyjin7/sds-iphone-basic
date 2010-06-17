@@ -8,12 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol CandleDelegate <NSObject>
+- (void)uiUpdateMethod;
+@end
 
 @interface Candle : NSObject {
+	id<CandleDelegate> delegate;
+	
 	BOOL candleState;
 	UIImage *candleOffImage;
 	UIImage *candleOnImage;	
 }
+
+@property (assign) id<CandleDelegate> delegate;
 
 - (BOOL)candleState;
 - (void)setCandleState:(BOOL)newState;

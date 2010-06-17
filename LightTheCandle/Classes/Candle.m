@@ -11,6 +11,8 @@
 
 @implementation Candle
 
+@synthesize delegate;
+
 - (id)init {
 	
 	self = [super init];
@@ -31,10 +33,14 @@
 }
 - (void)setCandleState:(BOOL)newState {
 	candleState = newState;
+
+	if ( [delegate respondsToSelector:@selector(uiUpdateMethod)] ) {
+		[delegate uiUpdateMethod];
+	}
 	
-	[[NSNotificationCenter defaultCenter] postNotificationName:@"CandleDidChanged"
-														object:self
-													  userInfo:nil];	
+//	[[NSNotificationCenter defaultCenter] postNotificationName:@"CandleDidChanged"
+//														object:self
+//													  userInfo:nil];	
 }
 
 - (UIImage *)candleOffImage {

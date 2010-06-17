@@ -25,6 +25,7 @@
 											   object:nil];
 
 	myCandle = [[Candle alloc] init];
+	[myCandle setDelegate:self];
 
 	[candleImageView setImage:[myCandle candleOffImage]];
 	onOffSwitch.on = [myCandle candleState];
@@ -48,9 +49,8 @@
 
 }
 
-- (void)uiUpdate:(NSNotification *)noti {
-	
-	Candle *notiCandle = [noti object];
+- (void)uiUpdateMethod {
+	Candle *notiCandle = myCandle;
 	
 	if ([notiCandle candleState]) {
 		[candleImageView setImage:[notiCandle candleOnImage]];

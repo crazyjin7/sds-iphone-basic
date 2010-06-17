@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Candle.h"
 
-@interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {
+@interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate, CandleDelegate> {
     UIWindow *window;
 	
 	Candle *myCandle;
