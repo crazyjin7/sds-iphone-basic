@@ -37,11 +37,13 @@
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
 	
 	movingView.center = CGPointMake(250, 300);
-	movingView.backgroundColor = [UIColor blueColor];
 	movingView.transform = CGAffineTransformMakeRotation(90.0);
-	movingView.alpha = 0.7;
 	
 	[UIView commitAnimations];
+	
+	//commit 후에는 애니메이션 효과 없음
+	movingView.backgroundColor = [UIColor blueColor];
+	movingView.alpha = 0.7;
 }
 
 
