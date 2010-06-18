@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "WorldPhotosAppDelegate.h"
+#import "PhotoDetailViewController.h"
 
 @implementation RootViewController
 
@@ -85,9 +86,9 @@
 	cell.textLabel.text = [photoData valueForKey:@"Country"];
 	cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
 	cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
-	//cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	//cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
-	cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	//cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	
     return cell;
 }
@@ -138,13 +139,20 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	
+	PhotoDetailViewController *detailViewController = [[PhotoDetailViewController alloc] 
+													   initWithNibName:@"PhotoDetailViewController" 
+													   bundle:nil];
+	
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+	
+	detailViewController.photoData = photoData;
+	
+	// ...
+	// Pass the selected object to the new view controller.
+	[self.navigationController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
+	 
 }
 
 
