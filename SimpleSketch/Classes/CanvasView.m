@@ -32,13 +32,17 @@
     return self;
 }
 
-/*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
+	CGRect bounds = [self bounds];
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	CGImageRef image = CGBitmapContextCreateImage(cgContext);
+	CGContextDrawImage(context, bounds, image);
+	CGImageRelease(image);
 }
-*/
 
 - (void)dealloc {
     [super dealloc];
@@ -60,8 +64,12 @@
 		CGPoint prevLocation = [touch previousLocationInView:self];
 		NSLog(@"PrevLoc = %@, Loc = %@", NSStringFromCGPoint(location), NSStringFromCGPoint(prevLocation));
 		
-		NSLog(@"PrevLoc X = %f, Y= %f", location.x, location.y);
+		CGContextBeginPath(cgContext);
+		CGContextMoveToPoint(cgContext, prevLocation.x, prevLocation.y);
+		CGContextAddLineToPoint(cgContext, location.x, location.y);
+		CGContextStrokePath(cgContext);
 	}
+	[self setNeedsDisplay];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {

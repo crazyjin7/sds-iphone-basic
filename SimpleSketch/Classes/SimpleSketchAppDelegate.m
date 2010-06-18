@@ -20,6 +20,7 @@
 	
 	CanvasView *aCanvasView = [[CanvasView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
 	aCanvasView.backgroundColor = [UIColor darkGrayColor];
+	aCanvasView.multipleTouchEnabled = YES;
 	
 	[window addSubview:aCanvasView];
 	
