@@ -11,6 +11,7 @@
 @implementation HelicopterAppDelegate
 
 @synthesize window;
+@synthesize helicopterImageView;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    

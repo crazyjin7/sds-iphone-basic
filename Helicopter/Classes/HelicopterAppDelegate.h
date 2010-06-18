@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface HelicopterAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	UIImageView *helicopterImageView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIImageView *helicopterImageView;
+
+- (IBAction)toggleFly:(id)sender;
+- (IBAction)moveThroughPath:(id)sender;
 
 @end
 
