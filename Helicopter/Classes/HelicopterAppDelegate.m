@@ -18,6 +18,14 @@
 
     // Override point for customization after application launch
 	
+	UIImage *heliImage1 = [UIImage imageNamed:@"Heli_1.png"];
+	UIImage *heliImage2 = [UIImage imageNamed:@"Heli_2.png"];
+	UIImage *heliImage3 = [UIImage imageNamed:@"Heli_3.png"];
+	
+	NSArray *aniImageArray = [NSArray arrayWithObjects:heliImage1, heliImage2, heliImage3, nil];
+	
+	helicopterImageView.animationImages = aniImageArray;
+	
     [window makeKeyAndVisible];
 	
 	return YES;
@@ -27,6 +35,20 @@
 - (void)dealloc {
     [window release];
     [super dealloc];
+}
+
+
+- (IBAction)toggleFly:(id)sender {
+	if ([helicopterImageView isAnimating]) {
+		[helicopterImageView stopAnimating];
+	}
+	else {
+		[helicopterImageView startAnimating];
+	}
+
+}
+- (IBAction)moveThroughPath:(id)sender {
+	
 }
 
 
