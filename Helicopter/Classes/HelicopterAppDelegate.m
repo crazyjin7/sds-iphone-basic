@@ -55,13 +55,16 @@
 	CGPoint dest1 = CGPointMake(160, 200);
 	CGPoint dest2 = CGPointMake(160, 400);
 	CGPathMoveToPoint(aniPath, &xform, currCenter.x, currCenter.y);
-	CGPathAddCurveToPoint(aniPath, &xform, 0, 50, 0, 50, dest1.x, dest1.y);
-	CGPathAddCurveToPoint(aniPath, &xform, 310, 350, 310, 350, dest2.x, dest2.y);
+	CGPathAddCurveToPoint(aniPath, &xform, 0, 50, 0, 150, dest1.x, dest1.y);
+	CGPathAddCurveToPoint(aniPath, &xform, 310, 350, 310, 250, dest2.x, dest2.y);
 	
 	//Create Animation
 	CAKeyframeAnimation *keyAni = [CAKeyframeAnimation animation];
 	keyAni.duration = 4.0;
 	keyAni.path = aniPath;
+	
+	//좀더 부드럽게...
+	keyAni.rotationMode = kCAAnimationRotateAutoReverse;
 	
 	[helicopterImageView.layer addAnimation:keyAni forKey:@"position"];
 }
