@@ -47,9 +47,23 @@
 	}
 
 }
-- (IBAction)moveThroughPath:(id)sender {
-	
-}
 
+- (IBAction)moveThroughPath:(id)sender {
+	CGPoint currCenter = helicopterImageView.center;
+	CGAffineTransform xform = CGAffineTransformIdentity;
+	CGMutablePathRef aniPath = CGPathCreateMutable();
+	CGPoint dest1 = CGPointMake(160, 200);
+	CGPoint dest2 = CGPointMake(160, 400);
+	CGPathMoveToPoint(aniPath, &xform, currCenter.x, currCenter.y);
+	CGPathAddCurveToPoint(aniPath, &xform, 0, 50, 0, 50, dest1.x, dest1.y);
+	CGPathAddCurveToPoint(aniPath, &xform, 310, 350, 310, 350, dest2.x, dest2.y);
+	
+	//Create Animation
+	CAKeyframeAnimation *keyAni = [CAKeyframeAnimation animation];
+	keyAni.duration = 4.0;
+	keyAni.path = aniPath;
+	
+	[helicopterImageView.layer addAnimation:keyAni forKey:@"position"];
+}
 
 @end
