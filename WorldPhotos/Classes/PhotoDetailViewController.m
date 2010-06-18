@@ -7,7 +7,7 @@
 //
 
 #import "PhotoDetailViewController.h"
-
+#import "PhotoMapViewController.h"
 
 @implementation PhotoDetailViewController
 
@@ -62,7 +62,12 @@
 
 
 - (IBAction)goToMapView:(id)sender {
-	
+	PhotoMapViewController *mapViewController = [[PhotoMapViewController alloc] initWithNibName:@"PhotoMapViewController"
+																						 bundle:nil];
+	mapViewController.photoData = photoData;
+	[self.navigationController pushViewController:mapViewController
+										 animated:YES];
+	[mapViewController release];
 }
 
 @end

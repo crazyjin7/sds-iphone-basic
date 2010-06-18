@@ -11,6 +11,9 @@
 
 @implementation PhotoMapViewController
 
+@synthesize photoData;
+@synthesize mapView;
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -27,6 +30,14 @@
     [super viewDidLoad];
 }
 */
+
+- (void)viewWillAppear:(BOOL)animated {
+	CLLocation *location = [photoData valueForKey:@"Location"];
+	MKCoordinateSpan span = MKCoordinateSpanMake(0.1, 0.1);
+	MKCoordinateRegion region = MKCoordinateRegionMake(location.coordinate, span);
+	
+	[mapView setRegion:region animated:YES];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
