@@ -1,19 +1,15 @@
 //
-//  PhotoDetailViewController.m
+//  PhotoMapViewController.m
 //  WorldPhotos
 //
 //  Created by SDS06 on 10. 6. 18..
 //  Copyright 2010 sds_multicampus. All rights reserved.
 //
 
-#import "PhotoDetailViewController.h"
+#import "PhotoMapViewController.h"
 
 
-@implementation PhotoDetailViewController
-
-@synthesize photoData;
-@synthesize photoImageView;
-@synthesize mapBarButton;
+@implementation PhotoMapViewController
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -25,14 +21,12 @@
 }
 */
 
+/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
-	self.navigationItem.rightBarButtonItem = mapBarButton;
-	self.navigationItem.title = @"Photo Detail View";
-	photoImageView.image = [photoData valueForKey:@"Photo"];
 }
+*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -60,9 +54,5 @@
     [super dealloc];
 }
 
-
-- (IBAction)goToMapView:(id)sender {
-	
-}
 
 @end
