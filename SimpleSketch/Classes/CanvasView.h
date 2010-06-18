@@ -10,7 +10,7 @@
 
 
 @interface CanvasView : UIView {
-
+	CGContextRef cgContext;
 }
 
 @end

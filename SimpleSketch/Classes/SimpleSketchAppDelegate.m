@@ -7,6 +7,7 @@
 //
 
 #import "SimpleSketchAppDelegate.h"
+#import "CanvasView.h"
 
 @implementation SimpleSketchAppDelegate
 
@@ -16,6 +17,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
     // Override point for customization after application launch
+	
+	CanvasView *aCanvasView = [[CanvasView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	aCanvasView.backgroundColor = [UIColor darkGrayColor];
+	
+	[window addSubview:aCanvasView];
 	
     [window makeKeyAndVisible];
 	
